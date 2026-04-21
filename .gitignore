@@ -161,10 +161,3 @@ cython_debug/
 
 # Trae specific
 .trae/
-
-# Project specific
-datasets/
-models/
-runs/
-results/
-*.pt
