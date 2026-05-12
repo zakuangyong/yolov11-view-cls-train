@@ -9,7 +9,7 @@ import torch
 from ultralytics import YOLO
 
 
-MODEL_PATH = Path("./runs/classify/car_view3/weights/best.pt")
+MODEL_PATH = Path("./models/yolo11m-cls.pt")
 DATA_ROOT = Path("./datasets/car-view-cls")
 SOURCE_DIR = DATA_ROOT / "test"
 OUTPUT_DIR = Path("./results/car-view-cls")
